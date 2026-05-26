@@ -4,12 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Gym Girl Tracker</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
@@ -24,7 +22,6 @@
     <main class="app">
 
         <nav>
-
             <div class="logo-section">
                 <div class="logo-circle"></div>
 
@@ -34,38 +31,24 @@
                 </div>
             </div>
 
-            <button class="nav-button">
-                Upgrade
-            </button>
-
+            <button class="nav-button">Upgrade</button>
         </nav>
 
         <section class="hero-card">
 
             <div class="hero-text">
-
                 <p class="mini-text">daily focus</p>
 
-                <h1>
-                    Build your dream body with consistency, softness & discipline.
-                </h1>
+                <h1>Build your dream body with consistency, softness & discipline.</h1>
 
                 <p class="description">
                     Track workouts, hydration, wellness habits and nutrition inside your aesthetic fitness dashboard.
                 </p>
 
                 <div class="hero-buttons">
-
-                    <button class="primary-btn">
-                        Start Tracking
-                    </button>
-
-                    <button class="secondary-btn">
-                        View Progress
-                    </button>
-
+                    <button class="primary-btn">Start Tracking</button>
+                    <button class="secondary-btn">View Progress</button>
                 </div>
-
             </div>
 
             <div class="stats-grid">
@@ -73,21 +56,37 @@
                 <div class="stat-card lilac">
                     <p>Water Intake</p>
                     <h3>2.4L</h3>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill water-progress"></div>
+                    </div>
                 </div>
 
                 <div class="stat-card">
                     <p>Protein</p>
                     <h3>104g</h3>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill protein-progress"></div>
+                    </div>
                 </div>
 
                 <div class="stat-card">
                     <p>Workout</p>
                     <h3>Pilates</h3>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill workout-progress"></div>
+                    </div>
                 </div>
 
                 <div class="stat-card soft">
                     <p>Mood</p>
                     <h3>Calm ☁️</h3>
+
+                    <div class="progress-bar">
+                        <div class="progress-fill mood-progress"></div>
+                    </div>
                 </div>
 
             </div>
@@ -98,21 +97,16 @@
 
             <div class="glass-card">
                 <p class="mini-text">today's reminder</p>
-
-                <h2>
-                    Your future body is created by your current habits.
-                </h2>
+                <h2>Your future body is created by your current habits.</h2>
             </div>
 
             <div class="glass-card">
                 <p class="mini-text">weekly streak</p>
-
-                <div class="streak-number">
-                    12 Days
-                </div>
+                <div class="streak-number">12 Days</div>
             </div>
 
         </section>
+
         <section class="tracker-panel">
 
             <p class="mini-text">quick log</p>
@@ -124,8 +118,15 @@
             </div>
 
             <ul class="log-list">
-                <li>Drank 2.4L water</li>
-                <li>Hit 104g protein</li>
+                <li>
+                    <span>Drank 2.4L water</span>
+                    <button class="delete-btn">Delete</button>
+                </li>
+
+                <li>
+                    <span>Hit 104g protein</span>
+                    <button class="delete-btn">Delete</button>
+                </li>
             </ul>
 
         </section>

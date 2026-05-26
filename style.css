@@ -384,3 +384,34 @@ nav {
     background: #dcd6f7;
     transform: translateY(-2px);
 }
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background: rgba(111, 106, 178, 0.12);
+    border-radius: 999px;
+    margin-top: 18px;
+    overflow: hidden;
+}
+
+.progress-fill {
+    height: 100%;
+    border-radius: 999px;
+    background: linear-gradient(90deg, #8a84d6, #bdb7f2);
+}
+
+.water-progress {
+    width: 80%;
+}
+
+.protein-progress {
+    width: 72%;
+}
+
+.workout-progress {
+    width: 60%;
+}
+
+.mood-progress {
+    width: 90%;
+}
