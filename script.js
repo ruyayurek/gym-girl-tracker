@@ -23,9 +23,18 @@ logButton.addEventListener("click", () => {
     }
 
     const newLog = document.createElement("li");
-    newLog.textContent = input.value;
+    newLog.innerHTML = `
+        <span>${input.value}</span>
+        <button class="delete-btn">Delete</button>
+    `;
 
     logList.appendChild(newLog);
 
     input.value = "";
+});
+
+logList.addEventListener("click", (event) => {
+    if (event.target.classList.contains("delete-btn")) {
+        event.target.parentElement.remove();
+    }
 });
