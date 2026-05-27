@@ -415,3 +415,11 @@ nav {
 .mood-progress {
     width: 90%;
 }
+
+.affirmation-card {
+    background: linear-gradient(135deg, #f7f8fc, #ece9ff);
+}
+
+.affirmation-card h2 {
+    color: #6f6ab2;
+}
