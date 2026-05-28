@@ -423,3 +423,10 @@ nav {
 .affirmation-card h2 {
     color: #6f6ab2;
 }
+
+.empty-text {
+    margin-top: 20px;
+    color: #9a9ab0;
+    font-size: 15px;
+    letter-spacing: 0.3px;
+}

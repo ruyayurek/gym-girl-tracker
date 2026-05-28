@@ -38,3 +38,8 @@ logList.addEventListener("click", (event) => {
         event.target.parentElement.remove();
     }
 });
+const emptyText = document.querySelector(".empty-text");
+emptyText.style.display = "none";
+if (logList.children.length === 1) {
+    emptyText.style.display = "block";
+}
