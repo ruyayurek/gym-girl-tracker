@@ -446,3 +446,7 @@ nav {
     color: #6f6ab2;
     border: 1px solid rgba(111, 106, 178, 0.12);
 }
+
+.hero-text h1 {
+    text-wrap: balance;
+}
