@@ -457,3 +457,7 @@ nav {
     margin-top: 12px;
     letter-spacing: 0.5px;
 }
+
+input::placeholder {
+    color: #b1b1c5;
+}
