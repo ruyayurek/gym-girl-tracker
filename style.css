@@ -461,3 +461,7 @@ nav {
 input::placeholder {
     color: #b1b1c5;
 }
+
+.stat-card h3 {
+    letter-spacing: -1px;
+}
