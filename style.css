@@ -465,3 +465,11 @@ input::placeholder {
 .stat-card h3 {
     letter-spacing: -1px;
 }
+
+.log-list li {
+    transition: 0.3s ease;
+}
+
+.log-list li:hover {
+    transform: translateX(4px);
+}
