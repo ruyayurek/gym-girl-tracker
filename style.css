@@ -473,3 +473,7 @@ input::placeholder {
 .log-list li:hover {
     transform: translateX(4px);
 }
+
+.nav-button {
+    font-weight: 600;
+}
