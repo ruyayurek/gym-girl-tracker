@@ -477,3 +477,7 @@ input::placeholder {
 .nav-button {
     font-weight: 600;
 }
+
+button {
+    user-select: none;
+}
